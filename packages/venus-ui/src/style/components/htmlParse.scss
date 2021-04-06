@@ -1,0 +1,361 @@
+$htmlParse: 'vs-htmlParse';
+
+.#{$htmlParse}{
+    margin: 0 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.#{$htmlParse}-inline {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+.mb10 {
+    margin-bottom: 0.63em;
+}
+
+.#{$htmlParse}-div {
+    /* margin: 0; */
+    padding: 0;
+}
+
+.#{$htmlParse}-h1 {
+    margin: 0.67em 0;
+    font-size: 2em;
+}
+
+.#{$htmlParse}-h2 {
+    margin: 0.75em 0;
+    font-size: 1.5em;
+}
+
+.#{$htmlParse}-h3 {
+    margin: 0.83em 0;
+    font-size: 1.17em;
+}
+
+.#{$htmlParse}-h4 {
+    margin: 1.12em 0;
+}
+
+.#{$htmlParse}-h5 {
+    margin: 1.5em 0;
+    font-size: 0.83em;
+}
+
+.#{$htmlParse}-h6 {
+    margin: 1.67em 0;
+    font-size: 0.75em;
+}
+
+.#{$htmlParse}-h1 {
+    margin-bottom: 0.9em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h2 {
+    margin-bottom: 0.34em;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h3 {
+    margin-bottom: 0.34em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h4 {
+    margin-bottom: 0.24em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h5 {
+    margin-bottom: 0.14em;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h6 {
+    margin-bottom: 0.04em;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.#{$htmlParse}-h1,
+.#{$htmlParse}-h2,
+.#{$htmlParse}-h3,
+.#{$htmlParse}-h4,
+.#{$htmlParse}-h5,
+.#{$htmlParse}-h6,
+.#{$htmlParse}-b,
+.#{$htmlParse}-strong {
+    font-weight: bolder;
+}
+
+.#{$htmlParse}-i,
+.#{$htmlParse}-cite,
+.#{$htmlParse}-em,
+.#{$htmlParse}-var,
+.#{$htmlParse}-address {
+    font-style: italic;
+}
+
+.#{$htmlParse}-pre,
+.#{$htmlParse}-tt,
+.#{$htmlParse}-code,
+.#{$htmlParse}-kbd,
+.#{$htmlParse}-samp {
+    font-family: monospace;
+}
+
+.#{$htmlParse}-pre {
+    overflow-x: scroll;
+    white-space: pre;
+    background: #f5f5f5;
+
+    /* padding: 20px; */
+}
+
+.#{$htmlParse}-big {
+    font-size: 1.17em;
+}
+
+.#{$htmlParse}-small,
+.#{$htmlParse}-sub,
+.#{$htmlParse}-sup {
+    font-size: 0.83em;
+}
+
+.#{$htmlParse}-sub {
+    vertical-align: sub;
+}
+
+.#{$htmlParse}-sup {
+    vertical-align: super;
+}
+
+.#{$htmlParse}-s,
+.#{$htmlParse}-strike,
+.#{$htmlParse}-del {
+    text-decoration: line-through;
+}
+
+/*htmlParse-自定义个性化的css样式*/
+
+/*增加video的css样式*/
+.#{$htmlParse}-strong,
+.#{$htmlParse}-s {
+    display: inline;
+}
+
+.#{$htmlParse}-a {
+    overflow: auto;
+    word-break: break-all;
+    color: deepskyblue;
+}
+
+.#{$htmlParse}-video {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.#{$htmlParse}-video-video {
+    width: 100%;
+}
+
+.#{$htmlParse}-blockquote {
+    border-left: 3px solid #dbdbdb;
+    padding: 10px 0 10px 5px;
+    font-family: Courier, Calibri, '宋体';
+    background: #f5f5f5;
+}
+
+.#{$htmlParse}-code,
+.#{$htmlParse}-wxxxcode-style {
+    line-height: 1.75;
+    background: #f5f5f5;
+}
+
+.#{$htmlParse}-li,
+.#{$htmlParse}-li-inner {
+    align-items: baseline;
+    margin: 10px 0;
+}
+
+.#{$htmlParse}-li-text {
+    align-items: center;
+    line-height: 20px;
+}
+
+.#{$htmlParse}-li-circle,
+.#{$htmlParse}-ol-number {
+    margin: 10px 10px 10px 0;
+}
+
+.#{$htmlParse}-li-circle {
+    display: inline-flex;
+    margin-top: 34px !important;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+}
+
+.#{$htmlParse}-li-square {
+    display: inline-flex;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+}
+
+.#{$htmlParse}-li-ring {
+    display: inline-flex;
+    margin-right: 5px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.#{$htmlParse}-u {
+    text-decoration: underline;
+}
+
+.#{$htmlParse}-hide {
+    display: none;
+}
+
+.WxEmojiView {
+    align-items: center;
+}
+
+.wxEmoji {
+    width: 16px;
+    height: 16px;
+}
+
+.#{$htmlParse}-table {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.#{$htmlParse}-tr {
+    display: flex;
+    border-right: 1px solid #e0e0e0;
+}
+
+.#{$htmlParse}-th,
+.#{$htmlParse}-td {
+    flex: 1;
+    padding: 5px;
+    font-size: 28px;
+    word-break: break-all;
+}
+
+.#{$htmlParse}-th-container,
+.#{$htmlParse}-td-container {
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+}
+
+.#{$htmlParse}-td:last {
+    border-top: 1px solid #e0e0e0;
+}
+
+.#{$htmlParse}-th {
+    background: #f0f0f0;
+}
+
+.#{$htmlParse}-del {
+    display: inline;
+}
+
+.#{$htmlParse}-figure {
+    overflow: hidden;
+}
+
+.#{$htmlParse}-ol-inner,
+.#{$htmlParse}-ul-inner {
+    display: flex;
+    align-items: flex-start;
+    line-height: 28px;
+}
+
+.#{$htmlParse}-img-inner {
+    position: relative;
+}
+
+.#{$htmlParse}-img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    background-color: #efefef;
+}
+
+.#{$htmlParse}-img-fadein {
+    animation: fade-in 1s linear;
+}
+.#{$htmlParse}-image{
+  width: 100%;
+  height: 100%;
+}
+.img-loading {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    animation: loading 1s linear 0s infinite;
+}
+
+/* audio */
+.#{$htmlParse}-audio-inner {
+    width: 100%;
+    height: 200px;
+}
+
+/* common */
+.mr5 {
+    margin-right: 5px;
+}
+
+.flex-full {
+    flex: 1;
+}
+
+.overflow-hide {
+    overflow: hidden;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

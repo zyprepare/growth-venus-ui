@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "es6",
+    "baseUrl": "./",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+$error: 'vs-error';
+
+.#{$error}-special {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .text {
+      color: #ccc;
+      font-size: 32px;
+      margin: 32px 0 46px;
+  }
+  .img {
+      width: 308px;
+      height: 308px;
+  }
+  .btn {
+      width: 224px;
+      height: 76px;
+      line-height: 76px;
+      color: #1a1a1a;
+      border: 1px solid #808080;
+      font-size: 28px;
+  }
+}
